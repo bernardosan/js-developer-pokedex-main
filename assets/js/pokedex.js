@@ -74,9 +74,9 @@ buttonToogle.addEventListener('click', () => {
   sections.forEach(s => {
     s.classList.toggle("hidden");
     if(s.classList.contains("hidden") && s.classList.contains("pokedex")){
-      buttonToogle.innerHTML = "PokeList"
-    } else {
       buttonToogle.innerHTML = "Pokedex"
+    } else {
+      buttonToogle.innerHTML = "PokeList"
     }
   })
 

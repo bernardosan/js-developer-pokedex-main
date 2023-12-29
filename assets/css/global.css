@@ -7,7 +7,7 @@
   font-family: 'Oxanium', cursive;
 }
 
-body {
+html {
   text-align: center;
   background: linear-gradient(to bottom, #6ab7f5, #fff);
   min-height: 100vh;
@@ -15,7 +15,6 @@ body {
   
 .content {
     width: 100vw;
-    height: 100vh;
     padding: 1rem;
     background-color: #fff;
 }
